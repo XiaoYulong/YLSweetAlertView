@@ -14,6 +14,7 @@
 		382972CC1A7A544400567C42 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 382972CB1A7A544400567C42 /* Images.xcassets */; };
 		382972CF1A7A544400567C42 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 382972CD1A7A544400567C42 /* LaunchScreen.xib */; };
 		382972DB1A7A544400567C42 /* YLSweetAlertViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 382972DA1A7A544400567C42 /* YLSweetAlertViewDemoTests.m */; };
+		382972E71A7A5F4600567C42 /* YLSweetAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 382972E61A7A5F4600567C42 /* YLSweetAlertView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		382972D41A7A544400567C42 /* YLSweetAlertViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YLSweetAlertViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		382972D91A7A544400567C42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		382972DA1A7A544400567C42 /* YLSweetAlertViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLSweetAlertViewDemoTests.m; sourceTree = "<group>"; };
+		382972E51A7A5F4600567C42 /* YLSweetAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YLSweetAlertView.h; path = YLSweetAlertView/YLSweetAlertView.h; sourceTree = "<group>"; };
+		382972E61A7A5F4600567C42 /* YLSweetAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YLSweetAlertView.m; path = YLSweetAlertView/YLSweetAlertView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,7 @@
 		382972B21A7A544400567C42 = {
 			isa = PBXGroup;
 			children = (
+				382972E41A7A5E4A00567C42 /* YLSweetAlertView */,
 				382972BD1A7A544400567C42 /* YLSweetAlertViewDemo */,
 				382972D71A7A544400567C42 /* YLSweetAlertViewDemoTests */,
 				382972BC1A7A544400567C42 /* Products */,
@@ -117,6 +121,15 @@
 				382972D91A7A544400567C42 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		382972E41A7A5E4A00567C42 /* YLSweetAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				382972E51A7A5F4600567C42 /* YLSweetAlertView.h */,
+				382972E61A7A5F4600567C42 /* YLSweetAlertView.m */,
+			);
+			name = YLSweetAlertView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				382972C71A7A544400567C42 /* ViewController.m in Sources */,
+				382972E71A7A5F4600567C42 /* YLSweetAlertView.m in Sources */,
 				382972C41A7A544400567C42 /* AppDelegate.m in Sources */,
 				382972C11A7A544400567C42 /* main.m in Sources */,
 			);
